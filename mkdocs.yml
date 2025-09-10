@@ -28,6 +28,3 @@ extra:
   homepage: index.html
 extra_css:
   - static/css/documentation.css
-extra_files:
-  - docs/index.html
-  - docs/static/
