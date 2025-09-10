@@ -1,6 +1,7 @@
 site_name: IRIS
 theme: 
   name: material
+  custom_dir: overrides
   favicon: IRIS_logo.png
   logo: IRIS_logo.png
   palette:
