@@ -8,6 +8,10 @@ theme:
     - scheme: default
       primary: "#009682"    # top bar, highlights
       accent: "#009682"     # links, buttons
+  
+# Enable custom templates
+extra_templates:
+  - home.html
 nav:
   - Introduction:
     - Overview: introduction/overview.md
