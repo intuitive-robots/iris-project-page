@@ -1,17 +1,13 @@
 site_name: IRIS
 theme: 
   name: material
-  custom_dir: overrides
   favicon: IRIS_logo.png
   logo: IRIS_logo.png
   palette:
     - scheme: default
       primary: "#009682"    # top bar, highlights
       accent: "#009682"     # links, buttons
-  
-# Enable custom templates
-extra_templates:
-  - home.html
+
 nav:
   - Introduction:
     - Overview: introduction/overview.md
