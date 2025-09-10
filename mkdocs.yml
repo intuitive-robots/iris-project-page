@@ -1,0 +1,23 @@
+site_name: IRIS
+theme: 
+  name: material
+  favicon: IRIS_logo.png
+  logo: IRIS_logo.png
+  palette:
+    - scheme: default
+      primary: "#009682"    # top bar, highlights
+      accent: "#009682"     # links, buttons
+nav:
+  - Introduction:
+    - Overview: introduction/overview.md
+    - Installation: introduction/installation.md
+  - Python Client:
+    - User Guide: python_client/user_guide.md
+    - Web Interface: python_client/web_interface.md
+  - XR Application:
+    - Development Guide: xr_application/development_guide.md
+
+# If you want MkDocs to also copy extra files/folders unchanged:
+docs_dir: docs
+extra_css:
+  - static/css/documentation.css
