@@ -33,7 +33,13 @@ jobs:
           # pip install -r requirements.txt
 
       - name: Build MkDocs site
-        run: mkdocs build --clean --site-dir site
+        run: |
+          # Build the MkDocs site
+          mkdocs build --clean --site-dir site
+          # Ensure index.html is the main page
+          cp docs/index.html site/index.html
+          # Copy static assets if they're not already copied
+          cp -r docs/static site/ || true
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
