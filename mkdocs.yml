@@ -18,7 +18,7 @@ nav:
   - XR Application:
     - Development Guide: xr_application/development_guide.md
 
-# If you want MkDocs to also copy extra files/folders unchanged:
 docs_dir: docs
+use_directory_urls: false
 extra_css:
   - static/css/documentation.css
