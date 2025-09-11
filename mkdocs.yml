@@ -16,6 +16,8 @@ nav:
     - User Guide: python_client/user_guide.md
     - Web Interface: python_client/web_interface.md
   - XR Application:
+    - Deploy on Meta Quest 3: xr_application/meta_quest3.md
+    - Deploy on HoloLens 2: xr_application/hololens2.md
     - Development Guide: xr_application/development_guide.md
 
 docs_dir: docs
