@@ -8,9 +8,9 @@
 
 With IRIS, robot researchers no longer need to invest extensive effort in developing C# or Unity applications. Instead, IRIS streamlines the workflow and helps accelerate the research process.  
 
-The framework provides:  
-- An open-source Python library called **SimPublisher**  
-- The **IRIS-Viz** package  
+The framework provides:
+- An open-source Python library called [**SimPublisher**](https://github.com/intuitive-robots/SimPublisher)
+- The [**IRIS-Viz**](https://github.com/intuitive-robots/IRIS-Viz) package
 - XR applications for multiple platforms  
 
 Using these components, researchers can **directly use Python code** in a seperate PC to display virtual objects in XR headsets and collect interaction data from XR devices.
